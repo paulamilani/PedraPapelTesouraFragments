@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selecione_sua_jogada" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/zeroBt"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/pedra"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/pedra"/>
+        <ImageButton
+            android:id="@+id/umBt"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/papel"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/papel" />
+        <ImageButton
+            android:id="@+id/doisBt"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/tesoura"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:text="@string/tesoura" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jogada_computador" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/jogadaComputador1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="64dp" />
+
+        <ImageView
+            android:id="@+id/jogadaComputador2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:layout_height="64dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado" />
+
+    <TextView
+        android:id="@+id/resultadoH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/resultadoC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/resultadoC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/resultadoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</FrameLayout>
