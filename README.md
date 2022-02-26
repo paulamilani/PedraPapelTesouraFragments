@@ -7,3 +7,8 @@ jogador automático (aplicativo) e no caso de três participantes serão um joga
 dois jogadores automáticos. O usuário deverá escolher sua jogada entre botões
 (preferencialmente com imagens) e aguardar a saída da jogada dos demais jogadores. Por
 fim, o resultado do jogo que pode ser vitória, derrota ou empate deverá ser exibido ao
+
+
+##video demo
+
+https://github.com/paulamilani/PedraPapelTesouraFragments/blob/main/jokenpo.mp4
